@@ -1,0 +1,92 @@
+body {
+    background-color: #f0f4f8;
+    height: 100vh;
+    line-height: 2;
+    font-family: calibri;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    margin: auto;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 84.4vh;
+    gap: 1%;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 15px;
+    width: 40vw;
+    height: 40vh;
+    box-shadow: 0 0 0 3px #0001;
+}
+
+aside {
+    background-color: #ffffff;
+    padding: 15px;
+    height: 40vh;
+    width: 20vw;
+    box-shadow: 0 0 0 3px #0001;
+}
+
+ul {
+    list-style: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 2px 0;
+}
+
+input[type="text"] {
+    padding: 5px 3px;
+    border-radius: 3px;
+    font-family: calibri;
+}
+
+textarea {
+    padding: 4px 3px;
+    border-radius: 3px;
+    font-family: calibri;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 6px;
+    background-color: #ff5722;
+    color: #fff;
+    border: 1px solid #0001;
+    border-radius: 3px;
+    font-family: calibri;
+}
+
+input[type="submit"]:hover {
+    background-color: #e64a19;
+}

@@ -6,7 +6,6 @@ body {
 }
 
 header {
-    width: 100%;
     text-align: center;
 }
 
@@ -17,35 +16,33 @@ header, footer {
 
 footer {
     display: flex;
-    height: 7vh;
+    height: 3.1rem;
     align-items: center;
     justify-content: center;
 }
 
 main {
-    margin: auto;
     color: #333;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 84.4vh;
-    gap: 1%;
+    margin: 10.3rem 0;
+    gap: 1rem;
 }
 
 section {
     background-color: #ffffff;
-    padding: 15px;
-    width: 40vw;
-    height: 40vh;
-    box-shadow: 0 0 0 3px #0001;
+    padding: 0.938rem;
+    width: 38rem;
+    height: 18.73rem;
+    box-shadow: 0 0 0 0.188rem #0001;
 }
 
 aside {
     background-color: #ffffff;
-    padding: 15px;
-    height: 40vh;
-    width: 20vw;
-    box-shadow: 0 0 0 3px #0001;
+    padding: 0.938rem;
+    height: 18.73rem;
+    width: 18rem;
+    box-shadow: 0 0 0 0.188rem #0001;
 }
 
 ul {
@@ -58,18 +55,18 @@ form {
 }
 
 h2 {
-    margin: 2px 0;
+    margin: 0.125rem 0;
 }
 
 input[type="text"] {
-    padding: 5px 3px;
-    border-radius: 3px;
+    padding: 0.313rem 0.188rem;
+    border-radius: 0.188rem;
     font-family: calibri;
 }
 
 textarea {
-    padding: 4px 3px;
-    border-radius: 3px;
+    padding: 0.25rem 0.188rem;
+    border-radius: 0.188rem;
     font-family: calibri;
 }
 
@@ -78,12 +75,12 @@ a {
 }
 
 input[type="submit"] {
-    margin-top: 10px;
-    padding: 6px;
+    margin-top: 0.625rem;
+    padding: 0.375rem;
     background-color: #ff5722;
     color: #fff;
-    border: 1px solid #0001;
-    border-radius: 3px;
+    border: 0.063rem solid #0001;
+    border-radius: 0.188rem;
     font-family: calibri;
 }
 

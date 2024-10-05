@@ -3,30 +3,29 @@ body {
     height: 100vh;
     line-height: 2;
     font-family: calibri;
-}
-
-header {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
 }
 
 header, footer {
     background-color: #4a90e2;
     color: #fff;
+    text-align: center;
 }
 
 footer {
     display: flex;
-    height: 3.1rem;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 main {
     color: #333;
     display: flex;
     justify-content: center;
-    margin: 10.05rem 0;
     gap: 1rem;
+    align-items: center;
 }
 
 section {

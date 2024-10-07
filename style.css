@@ -11,10 +11,6 @@ body {
 header, footer {
     background-color: #4a90e2;
     color: #fff;
-    text-align: center;
-}
-
-footer {
     display: flex;
     justify-content: center;
     align-items: center;
